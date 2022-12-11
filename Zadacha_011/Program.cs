@@ -5,7 +5,7 @@ Console.WriteLine($"Случайное число    {randomNumber}");
 
 int secondDigit = randomNumber % 10; //Остаток деления на 10
 int firstDigit = randomNumber / 100;
-//Ниже приведены различные способы вывода на экран результата.
+// Ниже приведены различные способы вывода на экран результата.
 Console.WriteLine(firstDigit * 10 + secondDigit);
 Console.WriteLine($"Случайное число без второй цифры -    {firstDigit}{secondDigit}");
 Console.WriteLine("Случайное число без второй цифры -    " +firstDigit+secondDigit);
